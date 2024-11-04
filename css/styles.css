@@ -38,8 +38,7 @@ body {
     list-style: none;
 }
 
-.service-item {
-    background-color: #FFFFFF;
+.services-item {
     margin-bottom: 20px;
 }
 
@@ -121,6 +120,11 @@ body {
     color: #4d5ae5;
 }
 
+/* Specific color for span text in logo */
+.logo-part .logo-part {
+    color: #2e2f42;
+}
+
 /* Footer logo color */
 .footer-logo .logo-part {
     color: #4D5AE5;
@@ -130,3 +134,4 @@ body {
 address {
     font-style: normal;
 }
+

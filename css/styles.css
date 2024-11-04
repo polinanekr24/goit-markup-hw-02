@@ -60,37 +60,37 @@ ul, ol {
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 20px; /* Add padding for footer */
-    text-align: center; /* Center text in footer */
+    padding: 20px; 
+    text-align: center; 
 }
 
 #portfolio {
     text-align: center;
-    padding: 120px 0; /* Padding top and bottom for the section */
+    padding: 120px 0; 
 }
 
 .portfolio-list {
-    display: flex; /* Use Flexbox for alignment */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    gap: 20px; /* Space between cards */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 0; 
+    margin: 0; 
 }
 
 .portfolio-list li {
-    border-bottom: 2px solid #000; /* Border only at the bottom */
-    box-sizing: border-box; /* Include border and padding in width */
-    padding: 10px; /* Internal padding for card */
-    width: calc(33.33% - 20px); /* Example width for 3 cards per row */
+    border-bottom: 2px solid #000; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    width: calc(33.33% - 20px); 
 }
 
 .portfolio-list img {
-    width: 100%; /* Images take full width of parent */
-    height: auto; /* Maintain aspect ratio of images */
+    width: 100%; 
+    height: auto; 
 }
 
-/* Styles for sections to ensure all sections have the same style */
+
 section {
-    padding: 12px 0; /* Top and bottom padding for sections */
-    margin: 0; /* Remove external margins */
+    padding: 12px 0; 
+    margin: 0; 
 }

@@ -12,14 +12,12 @@ body {
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 20px;
     text-align: center;
 }
 
 /* Portfolio section */
 .portfolio-section {
     background-color: #f4f4fd;
-    padding: 40px 0;
     text-align: center;
 }
 
@@ -34,7 +32,6 @@ body {
 
 /* List styles */
 .services-list {
-    padding: 0;
     list-style: none;
 }
 
@@ -56,7 +53,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    background-color: #ffffff;
 }
 
 /* Button styles */
@@ -69,7 +66,6 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    padding: 10px 20px;
     border: none;
     transition: background-color 0.3s;
 }

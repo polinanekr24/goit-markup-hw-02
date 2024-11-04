@@ -53,7 +53,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #ffffff;
+    color: #434455;
 }
 
 /* Button styles */
@@ -70,11 +70,7 @@ body {
     transition: background-color 0.3s;
 }
 
-/* Hover effect for button */
-.hero-button:hover,
-.hero-button:focus {
-    background-color: #404BBF;
-}
+
 
 /* Navigation link styles */
 .nav-link {
@@ -130,4 +126,63 @@ body {
 address {
     font-style: normal;
 }
-
+/* Секция */
+.section-background {
+    background-color: #2e2f42;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Заголовок */
+  .heading-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  
+  /* Кнопка */
+  .button-primary {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+/* Секция */
+.section-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Заголовок */
+  .header-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  
+  /* Список */
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  /* Пункт списка */
+  .list-item {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

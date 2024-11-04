@@ -5,55 +5,6 @@ body {
     margin: 0; /* Remove default margins from body */
 }
 
-ul, ol {
-    list-style-type: none;
-    padding: 0; /* Remove padding from lists */
-    margin: 0; /* Remove margin from lists */
-}
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.header-logo .logo-part {
-    color: #2e2f42;
-}
-
-.footer-logo .logo-part {
-    color: #f4f4fd;
-}
-
-.nav-lin {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf; 
-}
-
-.contacts {
-    font-style: normal;
-}
-
-.contacts-link {
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #424455; 
-}
-
-.contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf; 
 }
@@ -94,7 +45,7 @@ section {
     padding: 12px 0; 
     margin: 0; 
 }
-<style>
+ style 
         /* Main color for span text */
         .logo-part { color: #2e2f42; }
 
